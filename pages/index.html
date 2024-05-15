@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello Express!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Hello Express!</h1>
+    <p>Showing <code>pages/index.html</code></p>
+    <form action="/yourInfo" method="POST">
+      <div
+        style="
+          margin-bottom: 10px;
+          display: flex;
+          justify-content: space-between;
+        "
+      >
+        <label for="firstName">First Name : </label>
+        <input type="text" id="firstName" name="firstName" />
+      </div>
+      <div
+        style="
+          margin-bottom: 10px;
+          display: flex;
+          justify-content: space-between;
+        "
+      >
+        <label for="lastName">Last Name : </label>
+        <input type="text" id="lastName" name="lastName" />
+      </div>
+      <div
+        style="
+          margin-bottom: 10px;
+          display: flex;
+          justify-content: space-between;
+        "
+      >
+        <label for="fatherName">Father Name : </label>
+        <input type="text" id="fatherName" name="fatherName" />
+      </div>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
